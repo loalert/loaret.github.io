@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/245485c9-444e-4a71-b94e-82fa594e6ea2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f40612;
+}
+
+.remember {
+    color: #b3b3b3;
+    text-align: left;
+}
+
+.forgot-password a,
+.signup-prompt a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.forgot-password a:hover,
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+.signup-prompt {
+    margin-top: 10px;
+}
